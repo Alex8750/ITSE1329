@@ -5,6 +5,6 @@ fun main(args: Array<String>){
     if (friendsCount>500)
         println("Adopt a dog today!!!")
         else if (friendsCount<500)
-            println("Adopt a cat today!!!")
+            println("Buy Cat Food At 20% off")
 
 }
