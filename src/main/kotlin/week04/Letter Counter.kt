@@ -1,6 +1,10 @@
 package week04
 
 fun main(){
+    /*Alexander Garcia
+      4.2
+      9/29/22
+     */
     println("Enter a string: ")
     var string = readLine()!!
     println("Enter 1 charcter: ")
