@@ -1,5 +1,5 @@
 fun main(){
-    println("Enter name on3")
+    println("Enter name one")
     var name1 = readLine()!!
     println("Enter name two:")
     var name2 = readLine()!!
