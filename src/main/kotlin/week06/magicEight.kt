@@ -9,7 +9,8 @@ var array = arrayOf("Yes, of course!",
     "You can count on it.",
     "For sure!", "Ask me later.",
     "I’m not sure.",
-    "I can’t tell you right now. I’ll tell you after my nap. No way!",
+    "I can’t tell you right now.",
+    " I’ll tell you after my nap. No way!",
     "I don’t think so.",
     "Without a doubt, no.",
     "The answer is clearly NO.")
@@ -18,6 +19,6 @@ var array = arrayOf("Yes, of course!",
     while(question != quit ){
         println("Ask a question or enter quit to end the program!!")
         question = readLine()
-        println(array[(0..8).random()])
+        println(array[(0..9).random()])
     }
 }
